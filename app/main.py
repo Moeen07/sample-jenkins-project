@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/health")
 async def health_check():
-    return JSONResponse(content={"message": "Service is running and deployed using Jenkins"}, status_code=200)
+    return JSONResponse(content={"message": "Service is running and deployed using Jenkins once again"}, status_code=200)
