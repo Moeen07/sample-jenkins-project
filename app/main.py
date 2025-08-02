@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/health")
 async def health_check():
-    return JSONResponse(content={"message": "Service is running healthy"}, status_code=200)
+    return JSONResponse(content={"message": "Service is running healthy again"}, status_code=200)
