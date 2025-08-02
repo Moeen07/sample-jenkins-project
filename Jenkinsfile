@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Deploy to GCP') {
             steps {
-                sshagent(credentials: ['gcp-ssh']) {
+                sshagent(credentials: ['3ddcc023-97c1-481d-90aa-cc24acd0cb7e']) {
                     sh """
                     ssh -o StrictHostKeyChecking=no $REMOTE_USER@$REMOTE_HOST '
                         cd $REMOTE_DIR &&
