@@ -9,7 +9,7 @@ echo "🛑 Stopping existing containers..."
 docker compose down
 
 echo "🔨 Building Docker image using build.image.sh..."
-chmod +x ./build.image.sh
+chmod +x ./build_image.sh
 ./build.image.sh
 
 echo "🚀 Starting containers in detached mode..."
